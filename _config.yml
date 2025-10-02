@@ -23,7 +23,7 @@ repository               : "https://jinzhangkust.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "JZhang.png"
   name             : "张进(Jin Zhang)"
   pronouns         : "特聘副教授、硕士生导师"  
   bio              : "聚焦有色冶金过程的在线智能监测与先进仪器研发"
