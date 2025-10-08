@@ -12,8 +12,8 @@ redirect_from:
 3. LIBS in-situ mineral content analysis
 
 **Education**
-Ph.D. in School of Automation, Central South University, Changsha, China
-Visiting Scholar in Automatic Control and Complex Systems, University of Duisburg-Essen, Duisburg, Germany
+1. Ph.D. in School of Automation, Central South University, Changsha, China
+2. Visiting Scholar in Automatic Control and Complex Systems, University of Duisburg-Essen, Duisburg, Germany
 
 Froth Flotation 
 ======
