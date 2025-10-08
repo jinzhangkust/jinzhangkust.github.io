@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 **Research Interests**
-1. Industrial process sensing, monitoring, and control.
-2. Computer vision & deep learning
-3. LIBS in-situ mineral content analysis
+* Industrial process sensing, monitoring, and control.
+* Computer vision & deep learning
+* LIBS in-situ mineral content analysis
 
 **Education**
-1. Ph.D. in School of Automation, Central South University, Changsha, China
-2. Visiting Scholar in Automatic Control and Complex Systems, University of Duisburg-Essen, Duisburg, Germany
+* Ph.D. in School of Automation, Central South University, Changsha, China
+* Visiting Scholar in Automatic Control and Complex Systems, University of Duisburg-Essen, Duisburg, Germany
 
 Froth Flotation 
 ======
