@@ -34,16 +34,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Regular Reviewer for IEEE-TII, IEEE-TIM, EAAI, etc.
-
 Grants & Funding
 ======
 * 1.	国家自然科学基金委员会，青年基金项目，62303201，基于高数据效率方法的矿物浮选过程软测量建模研究，2024-01-01至2026-12-31，30万元，在研，主持
@@ -55,3 +45,12 @@ Grants & Funding
 * 7.	国家自然科学基金委员会，面上项目，62171476，基于双目立体视觉的复杂工业过程工况智能精细化感知，2022-01-01至2025-12-31，63万元，在研，参与
 * 8.	国家自然科学基金委员会，联合基金项目重点项目，U1701261，工业过程数据实时获取与知识自动化的理论与技术研究， 2018-01 至 2021-12，280.00万元，结题，参与
 
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Regular Reviewer for IEEE-TII, IEEE-TIM, EAAI, etc.
