@@ -25,33 +25,40 @@ Effective monitoring is an essential prerequisite to ensure the reliability and 
 Computer Vision-Based Flotation Process Monitoring
 ======
 ![FlotationPlant](/images/froth_machine_and_image.jpg)
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Computer vision–based flotation process monitoring aims to extract meaningful information from froth surface images and establish a reliable link between froth appearance and metallurgical performance. Compared with traditional sampling-based analyzers, vision systems provide non-contact, low-cost, and high-frequency measurements, making them well suited for real-time industrial applications.
+
+In a typical flotation monitoring framework, industrial cameras are installed above flotation cells to continuously acquire froth images. Image processing and machine learning techniques are then employed to characterize froth appearance from multiple perspectives, including froth texture, bubble size distribution, color, mobility, and structural patterns. These visual features implicitly reflect underlying physical and chemical states such as reagent dosage, air flow rate, pulp level, and mineral hydrophobicity.
+
+With the development of deep learning, representation learning methods have increasingly replaced handcrafted features, enabling more robust and adaptive froth characterization under varying operating conditions. By learning high-level visual representations directly from data, deep models can better cope with complex backgrounds, illumination changes, and process disturbances commonly encountered in industrial flotation environments.
+
+The extracted froth features or learned representations are further used to:
+* Estimate key performance indicators (KPIs), such as concentrate grade and tailings grade
+* Detect abnormal operating conditions and process faults
+* Support decision-making and advanced control strategies
+Overall, computer vision–based flotation monitoring provides an effective pathway toward intelligent perception, soft sensing, and closed-loop control of flotation processes, contributing to improved process stability, product quality, and resource efficiency.
 
 Laser-Induced Breakdown Spectroscopy (LIBS)-Based Slurry Analysis
 ======
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Laser-induced breakdown spectroscopy (LIBS)–based slurry analysis focuses on achieving rapid, in-situ, and multi-element characterization of mineral slurries in complex industrial environments. By utilizing high-energy laser pulses to generate plasma on or within the slurry, LIBS enables direct acquisition of elemental emission spectra without the need for extensive sample preparation.
+
+In a typical LIBS-based slurry analysis framework, a pulsed laser is directed onto the slurry surface or through an optical window to induce plasma formation. The emitted light from the plasma is collected and spectrally resolved to identify and quantify elemental compositions. Compared with conventional laboratory assays or on-line analyzers, LIBS offers advantages in fast response, low consumable cost, and simultaneous multi-element detection, making it particularly suitable for real-time process monitoring.
+
+However, slurry environments introduce significant challenges, including surface fluctuations, matrix effects, particle size variability, and signal instability. To address these issues, advanced signal processing and machine learning techniques are employed to enhance spectral robustness and improve quantitative accuracy. Data-driven modeling methods enable the extraction of informative spectral representations and the establishment of reliable relationships between LIBS spectra and target mineral contents.
+
+LIBS-based slurry analysis can be applied to:
+* In-situ mineral content and grade analysis
+* Real-time monitoring of process streams and material balance
+* Rapid feedback for process control and optimization
+Overall, LIBS-based slurry analysis provides a promising solution for on-line elemental sensing and intelligent decision support in mineral processing, complementing vision-based monitoring approaches and contributing to the development of fully integrated intelligent flotation systems.
 
 LIBS-V Lab
 ======
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+The LIBS-V Lab focuses on the integration of laser-induced breakdown spectroscopy (LIBS) and machine vision for flotation process monitoring, optimization, and control. By combining elemental sensing and visual perception, the laboratory aims to provide multi-modal information for understanding flotation dynamics and improving process performance.
 
-**Markdown generator**
+The laboratory is equipped with a dual-pulse LIBS slurry analysis platform, including two high-energy pulsed lasers (200 mJ each), fiber-optic spectrometers, timing synchronization units, scientific cameras, and a dedicated slurry sample chamber. This platform enables in-situ and high-temporal-resolution acquisition of spectral signals from mineral slurries, supporting quantitative analysis of mineral composition under realistic process conditions.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+To support experimental flotation studies, the lab maintains a complete set of mineral processing equipment, including flotation machines, agitators, and grinding–granulation systems. A dedicated froth image acquisition system, consisting of industrial cameras and controlled illumination modules, is used for continuous froth surface monitoring. The collected image data are consistent with industrial flotation scenarios in terms of visual characteristics and operating conditions.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Raw ores used in the laboratory experiments are supplied by collaborating mineral processing enterprises, ensuring that the ore properties closely match those encountered in industrial flotation plants. This setup allows systematic investigation of the relationships among ore characteristics, LIBS spectral responses, froth appearance, and flotation performance, bridging laboratory research and industrial practice.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Overall, the LIBS-V Lab provides an integrated experimental platform for multi-sensor data acquisition, data-driven modeling, and intelligent control of flotation processes, supporting both fundamental research and application-oriented studies in mineral processing.
