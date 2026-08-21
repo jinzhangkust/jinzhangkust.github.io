@@ -13,7 +13,7 @@ title                    : "Jin Zhang"
 title_separator          : "-"
 name                     : &name "Jin Zhang"
 description              : &description "Academic homepage of Jin Zhang"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://jinzhangkust.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://jinzhangkust.github.io/" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : ""
 repository               : "https://jinzhangkust.github.io/"
@@ -29,12 +29,12 @@ author:
   bio              : "人工智能、图像处理、流程工业软测量、LIBS原位检测"
   location         : "昆明，中国"
   employer         : "昆明理工大学 | Kunming University of Science and Technology"
-  uri              : https://jinzhangkust.github.io/
+  uri              : "https://jinzhangkust.github.io/"
   email            : "j.zhang@kust.edu.cn" 
 
   # Academic websites
-  academia         : "https://xzy.kmust.edu.cn/info/1129/3839.htm
-  orcid            : "http://orcid.org/0000-0001-7574-2808
+  academia         : "https://xzy.kmust.edu.cn/info/1129/3839.htm"
+  orcid            : "http://orcid.org/0000-0001-7574-2808"
   github           : "jinzhangkust"    
 
 # Publication Category - The following the list of publication categories and their headings
